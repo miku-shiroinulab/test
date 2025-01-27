@@ -13,8 +13,7 @@
     - [インデント](#インデント)
   - [HTMLコーディング規約](#htmlコーディング規約)
     - [文書型宣言](#文書型宣言)
-    - [文書の文字セット](#文書の文字セット)
-    - [ビューポートメタタグ](#ビューポートメタタグ)
+    - [文書の言語](#文書の言語)
     - [スタイルシートとスクリプトの属性の省略](#スタイルシートとスクリプトの属性の省略)
     - [引用符](#引用符)
     - [void要素のスラッシュ](#void要素のスラッシュ)
@@ -25,6 +24,10 @@
 
 <!-- /code_chunk_output -->
 
+## 参考にしたサイト
+> [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
+  [YngLabコーディング規約](https://github.com/YngLab/coding_rule?tab=readme-ov-file)
+  [Markdown記法 チートシート](https://qiita.com/Qiita/items/c686397e4a0f4f11683d)
 
 ## 全体で共通の規約
 ### プロトコル
@@ -62,16 +65,10 @@ HTML5の文書型宣言を使ってください。
 <!DOCTYPE html>
 ```
 
-### 文書の文字セット
-HTML5の文書型宣言を使ってください。
+### 文書の言語
+```<html>```要素に lang 属性を使い、文書の言語を設定してください。
 ```html
 <html lang="ja"></html>
-```
-
-### ビューポートメタタグ
-HTML5の文書型宣言を使ってください。
-```html
-<meta charset="utf-8">
 ```
 
 ### スタイルシートとスクリプトの属性の省略
